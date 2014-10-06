@@ -1,0 +1,3 @@
+[submodule "books/sicp-examples"]
+	path = books/sicp-examples
+	url = git@github.com:afronski/sicp-examples.git
