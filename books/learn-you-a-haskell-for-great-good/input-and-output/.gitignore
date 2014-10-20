@@ -1,0 +1,7 @@
+# Binaries:
+*.o
+*.hi
+
+# Executables:
+input
+hello-world
