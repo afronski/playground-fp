@@ -1,0 +1,5 @@
+# Binaries:
+*.o
+*.hi
+fmapping-io
+io-as-applicative-functor
