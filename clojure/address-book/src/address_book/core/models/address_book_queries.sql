@@ -18,3 +18,11 @@ CREATE TABLE IF NOT EXISTS contacts (
   phone VARCHAR (14) NOT NULL,
   email VARCHAR (25) NOT NULL
 );
+
+-- name: delete-contact<!
+-- Deletes a single contact
+DELETE FROM contacts WHERE id = :id;
+
+-- name: update-contact<!
+-- Update a single contact
+UPDATE contacts SET name = :name, phone = :phone, email = :email WHERE id = :id;
